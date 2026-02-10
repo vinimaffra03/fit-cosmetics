@@ -23,11 +23,11 @@ export default async function FeaturedProducts() {
   if (products.length === 0) return null;
 
   return (
-    <section className="section-padding bg-cream">
+    <section className="section-padding bg-muted">
       <div className="container-shop">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-10">
           <div>
-            <h2 className="font-display text-3xl sm:text-4xl font-semibold">
+            <h2 className="text-3xl sm:text-4xl font-bold">
               Produtos em Destaque
             </h2>
             <p className="mt-2 text-muted-foreground">

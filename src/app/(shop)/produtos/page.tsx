@@ -37,7 +37,7 @@ export default async function ProductsPage() {
       <div className="container-shop">
         {/* Header */}
         <div className="mb-10">
-          <h1 className="font-display text-3xl sm:text-4xl font-semibold">
+          <h1 className="text-3xl sm:text-4xl font-semibold">
             Todos os Produtos
           </h1>
           <p className="mt-2 text-muted-foreground">

@@ -28,7 +28,7 @@ export default function CartDrawer() {
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetContent className="flex flex-col w-full sm:max-w-lg">
         <SheetHeader>
-          <SheetTitle className="flex items-center gap-2 font-display text-xl">
+          <SheetTitle className="flex items-center gap-2 text-xl font-semibold">
             <ShoppingBag className="h-5 w-5" />
             Seu Carrinho
             {totalItems > 0 && (

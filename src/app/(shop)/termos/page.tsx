@@ -9,7 +9,7 @@ export default function TermsPage() {
   return (
     <div className="section-padding">
       <div className="container-shop max-w-3xl mx-auto">
-        <h1 className="font-display text-4xl font-semibold mb-8">
+        <h1 className="text-4xl font-semibold mb-8">
           Termos de Uso
         </h1>
         <div className="prose max-w-none text-muted-foreground space-y-6">

@@ -16,7 +16,7 @@ export default {
   	extend: {
   		fontFamily: {
   			sans: [
-  				'Montserrat',
+  				'Inter',
   				'ui-sans-serif',
   				'system-ui',
   				'-apple-system',
@@ -29,21 +29,13 @@ export default {
   				'sans-serif'
   			],
   			display: [
-  				'Cormorant Garamond',
-  				'Georgia',
-  				'serif'
-  			],
-  			serif: [
-  				'Cormorant Garamond',
-  				'ui-serif',
-  				'Georgia',
-  				'Cambria',
-  				'Times New Roman',
-  				'Times',
-  				'serif'
+  				'Inter',
+  				'ui-sans-serif',
+  				'system-ui',
+  				'-apple-system',
+  				'sans-serif'
   			],
   			mono: [
-  				'IBM Plex Mono',
   				'ui-monospace',
   				'SFMono-Regular',
   				'Menlo',
@@ -88,23 +80,6 @@ export default {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
   			},
-  			gold: {
-  				DEFAULT: 'hsl(var(--gold))',
-  				light: 'hsl(var(--gold-light))',
-  				dark: 'hsl(var(--gold-dark))'
-  			},
-  			charcoal: {
-  				DEFAULT: 'hsl(var(--charcoal))',
-  				light: 'hsl(var(--charcoal-light))'
-  			},
-  			cream: {
-  				DEFAULT: 'hsl(var(--cream))',
-  				dark: 'hsl(var(--cream-dark))'
-  			},
-  			rose: {
-  				DEFAULT: 'hsl(var(--rose))',
-  				dark: 'hsl(var(--rose-dark))'
-  			},
   			success: {
   				DEFAULT: 'hsl(var(--success))',
   				foreground: 'hsl(var(--success-foreground))'
@@ -130,65 +105,34 @@ export default {
   			md: 'var(--shadow-md)',
   			lg: 'var(--shadow-lg)',
   			xl: 'var(--shadow-xl)',
-  			product: 'var(--shadow-product)',
   			'2xs': 'var(--shadow-2xs)',
   			xs: 'var(--shadow-xs)',
   			'2xl': 'var(--shadow-2xl)'
   		},
   		keyframes: {
   			'accordion-down': {
-  				from: {
-  					height: '0'
-  				},
-  				to: {
-  					height: 'var(--radix-accordion-content-height)'
-  				}
+  				from: { height: '0' },
+  				to: { height: 'var(--radix-accordion-content-height)' }
   			},
   			'accordion-up': {
-  				from: {
-  					height: 'var(--radix-accordion-content-height)'
-  				},
-  				to: {
-  					height: '0'
-  				}
+  				from: { height: 'var(--radix-accordion-content-height)' },
+  				to: { height: '0' }
   			},
   			'fade-in': {
-  				from: {
-  					opacity: '0'
-  				},
-  				to: {
-  					opacity: '1'
-  				}
+  				from: { opacity: '0' },
+  				to: { opacity: '1' }
   			},
   			'slide-up': {
-  				from: {
-  					opacity: '0',
-  					transform: 'translateY(20px)'
-  				},
-  				to: {
-  					opacity: '1',
-  					transform: 'translateY(0)'
-  				}
+  				from: { opacity: '0', transform: 'translateY(20px)' },
+  				to: { opacity: '1', transform: 'translateY(0)' }
   			},
   			'slide-down': {
-  				from: {
-  					opacity: '0',
-  					transform: 'translateY(-10px)'
-  				},
-  				to: {
-  					opacity: '1',
-  					transform: 'translateY(0)'
-  				}
+  				from: { opacity: '0', transform: 'translateY(-10px)' },
+  				to: { opacity: '1', transform: 'translateY(0)' }
   			},
   			'scale-in': {
-  				from: {
-  					opacity: '0',
-  					transform: 'scale(0.95)'
-  				},
-  				to: {
-  					opacity: '1',
-  					transform: 'scale(1)'
-  				}
+  				from: { opacity: '0', transform: 'scale(0.95)' },
+  				to: { opacity: '1', transform: 'scale(1)' }
   			}
   		},
   		animation: {

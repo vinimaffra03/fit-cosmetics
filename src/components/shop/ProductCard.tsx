@@ -117,7 +117,7 @@ export default function ProductCard({
         </Button>
 
         {/* Quick Add - Desktop */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-charcoal/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden sm:block">
+        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden sm:block">
           <Button
             onClick={handleAddToCart}
             disabled={isAdding}
@@ -129,7 +129,7 @@ export default function ProductCard({
         </div>
       </Link>
 
-      <div className="p-4">
+      <div className="p-5">
         {product.category && (
           <Link href={`/categoria/${product.category.slug}`}>
             <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide hover:text-primary transition-colors">
@@ -153,7 +153,7 @@ export default function ProductCard({
                   key={i}
                   className={`h-3.5 w-3.5 ${
                     i < Math.floor(product.rating)
-                      ? "text-gold fill-gold"
+                      ? "text-amber-400 fill-amber-400"
                       : "text-muted-foreground"
                   }`}
                 />

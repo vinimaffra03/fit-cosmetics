@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 function ProductsSkeleton() {
   return (
-    <section className="section-padding bg-cream">
+    <section className="section-padding bg-muted">
       <div className="container-shop">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[...Array(4)].map((_, i) => (

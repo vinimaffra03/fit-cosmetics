@@ -47,7 +47,7 @@ export default function LoginPage() {
     <div className="section-padding">
       <div className="container-shop max-w-md mx-auto">
         <div className="text-center mb-8">
-          <h1 className="font-display text-3xl font-semibold">Entrar</h1>
+          <h1 className="text-3xl font-semibold">Entrar</h1>
           <p className="mt-2 text-muted-foreground">
             Faça login na sua conta
           </p>

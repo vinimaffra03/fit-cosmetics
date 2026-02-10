@@ -5,17 +5,17 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-background to-cream-dark">
+    <section className="relative overflow-hidden bg-gradient-to-b from-background to-muted">
       <div className="container-shop">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center py-12 lg:py-20">
           {/* Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 rounded-full text-sm text-primary mb-6 animate-fade-in">
-              <Star className="h-4 w-4 fill-gold text-gold" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm text-primary mb-6 animate-fade-in">
+              <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
               <span>Mais de 50.000 clientes satisfeitos</span>
             </div>
 
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight text-balance animate-slide-up">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-balance animate-slide-up">
               Cabelos{" "}
               <span className="text-primary">Lisos e Brilhantes</span> Como
               Você Sempre Sonhou
@@ -61,7 +61,7 @@ export default function HeroSection() {
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm">
-                <Star className="h-5 w-5 text-gold fill-gold" />
+                <Star className="h-5 w-5 text-amber-400 fill-amber-400" />
                 <span className="text-muted-foreground">
                   4.9/5 Avaliação
                 </span>
@@ -72,7 +72,7 @@ export default function HeroSection() {
           {/* Hero Image */}
           <div className="order-1 lg:order-2 relative animate-fade-in">
             <div className="relative aspect-[4/5] max-w-md mx-auto lg:max-w-none">
-              <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-rose/20 rounded-3xl transform rotate-3" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-purple-200/20 rounded-3xl transform rotate-3" />
               <div className="absolute inset-0 bg-card rounded-3xl shadow-xl overflow-hidden">
                 <Image
                   src="/images/hero-woman.jpg"
@@ -104,8 +104,8 @@ export default function HeroSection() {
       </div>
 
       {/* Decorative */}
-      <div className="absolute top-1/4 right-0 w-72 h-72 bg-gold/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-rose/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 right-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/5 rounded-full blur-3xl pointer-events-none" />
     </section>
   );
 }

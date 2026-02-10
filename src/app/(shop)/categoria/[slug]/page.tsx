@@ -52,7 +52,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <div className="section-padding">
       <div className="container-shop">
         <div className="mb-10">
-          <h1 className="font-display text-3xl sm:text-4xl font-semibold">
+          <h1 className="text-3xl sm:text-4xl font-semibold">
             {category.name}
           </h1>
           {category.description && (

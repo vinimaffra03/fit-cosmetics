@@ -12,7 +12,7 @@ export default function AboutPage() {
     <div className="section-padding">
       <div className="container-shop max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl sm:text-5xl font-semibold">
+          <h1 className="text-4xl sm:text-5xl font-semibold">
             Sobre a FIT Cosmetics
           </h1>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -23,7 +23,7 @@ export default function AboutPage() {
 
         <div className="prose prose-lg max-w-none">
           <div className="bg-card rounded-2xl p-8 mb-8">
-            <h2 className="font-display text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-semibold mb-4">
               Nossa História
             </h2>
             <p className="text-muted-foreground leading-relaxed">

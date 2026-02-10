@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
     <section className="section-padding bg-background">
       <div className="container-shop">
         <div className="text-center mb-12">
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold">
+          <h2 className="text-3xl sm:text-4xl font-bold">
             O Que Nossas Clientes Dizem
           </h2>
           <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
               className="bg-card rounded-2xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <Quote className="h-10 w-10 text-gold/30 mb-4" />
+              <Quote className="h-10 w-10 text-primary/30 mb-4" />
 
               <div className="flex items-center gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
                     key={i}
                     className={`h-4 w-4 ${
                       i < testimonial.rating
-                        ? "text-gold fill-gold"
+                        ? "text-amber-400 fill-amber-400"
                         : "text-muted-foreground"
                     }`}
                   />
@@ -103,7 +103,7 @@ export default function TestimonialsSection() {
               className="text-center animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <p className="text-3xl lg:text-4xl font-display font-semibold text-primary">
+              <p className="text-3xl lg:text-4xl font-bold text-primary">
                 {stat.value}
               </p>
               <p className="text-sm text-muted-foreground mt-1">

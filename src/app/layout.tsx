@@ -1,26 +1,12 @@
 import type { Metadata } from "next";
-import { Montserrat, Cormorant_Garamond, IBM_Plex_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
-const montserrat = Montserrat({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
-});
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-display",
-  display: "swap",
-});
-
-const ibmPlexMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-mono",
   display: "swap",
 });
 
@@ -65,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body
-        className={`${montserrat.variable} ${cormorant.variable} ${ibmPlexMono.variable} font-sans antialiased`}
+        className={`${inter.variable} font-sans antialiased`}
       >
         <ThemeProvider
           attribute="class"

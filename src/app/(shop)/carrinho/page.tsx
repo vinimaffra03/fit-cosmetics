@@ -25,7 +25,7 @@ export default function CartPage() {
           <div className="p-8 rounded-full bg-muted w-fit mx-auto mb-6">
             <ShoppingBag className="h-16 w-16 text-muted-foreground" />
           </div>
-          <h1 className="font-display text-3xl font-semibold">
+          <h1 className="text-3xl font-semibold">
             Seu carrinho está vazio
           </h1>
           <p className="mt-3 text-muted-foreground">
@@ -43,7 +43,7 @@ export default function CartPage() {
     <div className="section-padding">
       <div className="container-shop">
         <div className="flex items-center justify-between mb-8">
-          <h1 className="font-display text-3xl font-semibold">
+          <h1 className="text-3xl font-semibold">
             Meu Carrinho
           </h1>
           <Button variant="ghost" size="sm" onClick={clearCart}>

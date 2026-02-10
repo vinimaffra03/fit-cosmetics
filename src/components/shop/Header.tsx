@@ -106,7 +106,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 shrink-0">
               <div className="flex flex-col items-center">
-                <span className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-wide">
+                <span className="text-xl sm:text-2xl font-bold text-foreground tracking-wide">
                   FIT
                 </span>
                 <span className="text-[10px] sm:text-xs tracking-[0.3em] text-primary font-medium -mt-1">

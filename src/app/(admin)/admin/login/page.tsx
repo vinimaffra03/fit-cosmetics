@@ -44,7 +44,7 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md p-8">
         <div className="text-center mb-8">
           <div className="flex flex-col items-center mb-4">
-            <span className="font-display text-2xl font-semibold text-foreground tracking-wide">
+            <span className="text-2xl font-semibold text-foreground tracking-wide">
               FIT
             </span>
             <span className="text-xs tracking-[0.3em] text-primary font-medium -mt-1">

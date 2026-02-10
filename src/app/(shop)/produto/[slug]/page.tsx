@@ -136,7 +136,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               </p>
             )}
 
-            <h1 className="font-display text-3xl sm:text-4xl font-semibold mt-2">
+            <h1 className="text-3xl sm:text-4xl font-bold mt-2">
               {product.name}
             </h1>
 
@@ -149,7 +149,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                       key={i}
                       className={`h-5 w-5 ${
                         i < Math.floor(product.rating)
-                          ? "text-gold fill-gold"
+                          ? "text-amber-400 fill-amber-400"
                           : "text-muted-foreground"
                       }`}
                     />

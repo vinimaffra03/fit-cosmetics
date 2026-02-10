@@ -15,40 +15,40 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer className="bg-gray-900 text-gray-100">
       {/* Trust Bar */}
-      <div className="border-b border-charcoal-light/20">
+      <div className="border-b border-gray-700/30">
         <div className="container-shop py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex items-center gap-4 justify-center md:justify-start">
-              <div className="p-3 rounded-full bg-gold/20">
-                <Truck className="h-6 w-6 text-gold-light" />
+              <div className="p-3 rounded-full bg-primary/20">
+                <Truck className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <p className="font-medium">Frete Grátis</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-400">
                   Acima de R$ 199
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-4 justify-center">
-              <div className="p-3 rounded-full bg-gold/20">
-                <CreditCard className="h-6 w-6 text-gold-light" />
+              <div className="p-3 rounded-full bg-primary/20">
+                <CreditCard className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <p className="font-medium">Parcelamento</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-400">
                   Até 12x sem juros
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-4 justify-center md:justify-end">
-              <div className="p-3 rounded-full bg-gold/20">
-                <Shield className="h-6 w-6 text-gold-light" />
+              <div className="p-3 rounded-full bg-primary/20">
+                <Shield className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <p className="font-medium">Compra Segura</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-400">
                   Ambiente protegido
                 </p>
               </div>
@@ -63,14 +63,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
-              <span className="font-display text-2xl font-semibold text-white tracking-wide">
+              <span className="text-2xl font-bold text-white tracking-wide">
                 FIT
               </span>
-              <span className="block text-xs tracking-[0.3em] text-gold-light font-medium">
+              <span className="block text-xs tracking-[0.3em] text-primary font-medium">
                 GOLD BEAUTY
               </span>
             </div>
-            <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-sm text-gray-400 mb-6 leading-relaxed">
               Há mais de 10 anos transformando cabelos com produtos de alta
               qualidade. Sua confiança é nosso maior patrimônio.
             </p>
@@ -79,7 +79,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-charcoal-light/50 hover:bg-gold transition-colors"
+                className="p-2 rounded-full bg-gray-800 hover:bg-primary transition-colors duration-200"
               >
                 <Instagram className="h-5 w-5" />
               </a>
@@ -87,7 +87,7 @@ export default function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-charcoal-light/50 hover:bg-gold transition-colors"
+                className="p-2 rounded-full bg-gray-800 hover:bg-primary transition-colors duration-200"
               >
                 <Facebook className="h-5 w-5" />
               </a>
@@ -95,7 +95,7 @@ export default function Footer() {
                 href="https://wa.me/5511999999999"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-charcoal-light/50 hover:bg-gold transition-colors"
+                className="p-2 rounded-full bg-gray-800 hover:bg-primary transition-colors duration-200"
               >
                 <MessageCircle className="h-5 w-5" />
               </a>
@@ -115,7 +115,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-muted-foreground hover:text-white transition-colors"
+                    className="text-gray-400 hover:text-white transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -137,7 +137,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-muted-foreground hover:text-white transition-colors"
+                    className="text-gray-400 hover:text-white transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -151,25 +151,25 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Contato</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="h-4 w-4 text-gold-light mt-0.5" />
+                <Phone className="h-4 w-4 text-primary mt-0.5" />
                 <div>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-gray-400">
                     (11) 99999-9999
                   </p>
-                  <p className="text-xs text-muted-foreground/70">
+                  <p className="text-xs text-gray-500">
                     Seg a Sex, 9h às 18h
                   </p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="h-4 w-4 text-gold-light mt-0.5" />
-                <p className="text-sm text-muted-foreground">
+                <Mail className="h-4 w-4 text-primary mt-0.5" />
+                <p className="text-sm text-gray-400">
                   contato@fitcosmetics.com.br
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="h-4 w-4 text-gold-light mt-0.5" />
-                <p className="text-sm text-muted-foreground">
+                <MapPin className="h-4 w-4 text-primary mt-0.5" />
+                <p className="text-sm text-gray-400">
                   São Paulo, SP
                   <br />
                   Brasil
@@ -181,27 +181,27 @@ export default function Footer() {
       </div>
 
       {/* Payment Methods */}
-      <div className="border-t border-charcoal-light/20">
+      <div className="border-t border-gray-700/30">
         <div className="container-shop py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-muted-foreground">
+            <p className="text-xs text-gray-500">
               &copy; {currentYear} FIT Cosmetics. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-muted-foreground mr-2">
+              <span className="text-xs text-gray-500 mr-2">
                 Pagamento:
               </span>
               <div className="flex gap-2">
-                <div className="px-2 py-1 bg-charcoal-light/50 rounded text-xs">
+                <div className="px-2 py-1 bg-gray-800 rounded text-xs">
                   PIX
                 </div>
-                <div className="px-2 py-1 bg-charcoal-light/50 rounded text-xs">
+                <div className="px-2 py-1 bg-gray-800 rounded text-xs">
                   Visa
                 </div>
-                <div className="px-2 py-1 bg-charcoal-light/50 rounded text-xs">
+                <div className="px-2 py-1 bg-gray-800 rounded text-xs">
                   Master
                 </div>
-                <div className="px-2 py-1 bg-charcoal-light/50 rounded text-xs">
+                <div className="px-2 py-1 bg-gray-800 rounded text-xs">
                   Boleto
                 </div>
               </div>

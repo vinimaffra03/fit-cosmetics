@@ -8,6 +8,9 @@
       "Bash(npx prisma db push:*)",
       "Bash(npm install:*)",
       "Bash(npx jest:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\vinic\\Desktop\\AlphaProjects\\fitcosmetics"
     ]
   }
 }

@@ -27,7 +27,7 @@ export default function CategoriesSection() {
     <section className="section-padding bg-background">
       <div className="container-shop">
         <div className="text-center mb-12">
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold">
+          <h2 className="text-3xl sm:text-4xl font-bold">
             Navegue por Categoria
           </h2>
           <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
@@ -44,7 +44,7 @@ export default function CategoriesSection() {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="text-4xl sm:text-5xl mb-4">{category.icon}</div>
-              <h3 className="font-display text-lg sm:text-xl font-semibold group-hover:text-primary transition-colors">
+              <h3 className="text-lg sm:text-xl font-semibold group-hover:text-primary transition-colors">
                 {category.name}
               </h3>
               <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
@@ -54,7 +54,7 @@ export default function CategoriesSection() {
                 Ver produtos
                 <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </div>
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-gold/10 to-transparent rounded-bl-full pointer-events-none" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-bl-full pointer-events-none" />
             </Link>
           ))}
         </div>

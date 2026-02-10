@@ -25,7 +25,7 @@ export default function ContactPage() {
     <div className="section-padding">
       <div className="container-shop max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-semibold">
+          <h1 className="text-4xl font-semibold">
             Fale Conosco
           </h1>
           <p className="mt-3 text-muted-foreground">
